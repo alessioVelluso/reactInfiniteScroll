@@ -40,12 +40,11 @@ h1 {
   font-size: 3.2em;
   line-height: 1.1;
 }
-h2 {
-  grid-column: span 5;
-}
+
 
 
 body {
+  background-color: #242424;
   margin: 0;
   display: flex;
   min-width: 320px;
@@ -54,6 +53,9 @@ body {
 main {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+h2 {
+  grid-column: span 5;
 }
 @media(max-width: 1600px) {
   main { grid-template-columns: 1fr 1fr 1fr 1fr; }
