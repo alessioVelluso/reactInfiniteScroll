@@ -1,0 +1,40 @@
+.Card {
+    
+    justify-self: center;
+
+    height: 350px;
+    width: 200px;
+    border-radius: 20px;
+    margin: 3rem 0;
+    overflow: hidden;
+
+    background-color: white;
+    color: black;
+    cursor: pointer;
+
+}
+
+.Card .top {
+    position: relative;
+    background-position: center center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    height: 90%;
+    transition: 350ms all;
+    
+}
+
+
+.Card p {
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media(max-width: 500px) {
+    .Card { height: 300px; width: 170px;}
+}
+@media(max-width: 400px) {
+    .Card { height: 300px; width: 230px;}
+}
