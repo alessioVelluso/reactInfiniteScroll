@@ -20,7 +20,6 @@ class App extends React.Component {
 
     handleScroll = () => {
         let prevPosition = window.scrollY;
-        let snoozed = false
 
         window.addEventListener('scroll', () => {
           if (window.scrollY > 0) {
