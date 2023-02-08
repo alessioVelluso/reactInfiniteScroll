@@ -42,6 +42,7 @@ a:hover {
 
 body {
   background-color: #242424;
+  color: #ffffff;
   margin: 0;
   display: flex;
   min-width: 320px;
