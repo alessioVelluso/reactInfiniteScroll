@@ -40,6 +40,7 @@ class Main extends React.Component {
             <h2 style={{
                     textAlign: 'center',
                     padding: '1rem',
+                    margin: '2rem 0 1rem 0',
                     fontSize: '1.6rem',  
             }}>Click on the Images!</h2>
                 {this.renderCards()}
